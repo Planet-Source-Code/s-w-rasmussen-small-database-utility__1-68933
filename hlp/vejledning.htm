@@ -1,0 +1,622 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="vejledning_files/filelist.xml">
+<title>Brugervejledning til Small Database Utility</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author> S.W. Rasmussen</o:Author>
+  <o:LastAuthor>Søren W. Rasmussen</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2007-10-04T13:44:00Z</o:Created>
+  <o:LastSaved>2007-10-04T13:44:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1499</o:Words>
+  <o:Characters>9150</o:Characters>
+  <o:Company> Valby DataCenter</o:Company>
+  <o:Lines>76</o:Lines>
+  <o:Paragraphs>21</o:Paragraphs>
+  <o:CharactersWithSpaces>10628</o:CharactersWithSpaces>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:DoNotHyphenateCaps/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas>false</w:ValidateAgainstSchemas>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotUnderlineInvalidXML/>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.55pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:14.2pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	font-family:Arial;
+	color:#CC3300;
+	text-transform:uppercase;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:1.0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:11.0pt;
+	font-family:Arial;
+	color:gray;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+span.Style1
+	{mso-style-name:Style1;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	color:#3366FF;}
+p.Normalindentital2, li.Normalindentital2, div.Normalindentital2
+	{mso-style-name:"Normal indent ital 2";
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;
+	font-style:italic;}
+p.Normalindentital1, li.Normalindentital1, div.Normalindentital1
+	{mso-style-name:"Normal indent ital 1";
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:EN-US;
+	font-style:italic;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 2.0cm 3.0cm 2.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1677996256;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1782936584 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=DA style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h1><span style='mso-ansi-language:DA'>Brugervejledning til Small Database
+Utility<o:p></o:p></span></h1>
+
+<p class=Normalindentital1>Ved den sidste udsendelse til Sønderskovhjemmets
+venner, bekendte og forretningsforbindelser viste det sig, at listen over
+modtagere ikke var helt opdateret.</p>
+
+<p class=Normalindentital1><o:p>&nbsp;</o:p></p>
+
+<p class=Normalindentital1>SH-Grafik har derfor udviklet en lille database, som
+gør det nemt at vedligeholde listen over hjemmets kontakter og som samtidig
+tillader, at udskrive både breve og etiketter automatisk. Listen vedligeholdes
+af en administrator, som med mellemrum vil udsende opdateringer til brugere af
+databasen på Sønderskovhjemmet.</p>
+
+<p class=Normalindentital1><o:p>&nbsp;</o:p></p>
+
+<p class=Normalindentital1>Nedenfor beskrives programmet i detaljer, både den
+del, der er relevant for den almindelige bruger og den del, som omfatter
+opsætning af programmet.</p>
+
+<p class=Normalindentital1><o:p>&nbsp;</o:p></p>
+
+<p class=Normalindentital1>Programmet er gratis og den danske version kan
+hentes på Sønderskovhjemmets hjemmeside. Den senest opdaterede database SDU_SSH
+kan hentes samme sted som en selvekstraherende zip fil. Efter download af
+databasefilen SDU_SSH. klikker du bare to gange på filnavnet, så installerer
+den sig selv det rigtige sted på din harddisk.</p>
+
+<h2><span style='mso-ansi-language:DA'>Den almindelige bruger<o:p></o:p></span></h2>
+
+<p class=Normalindentital2>Den almindelige bruger kan ikke ændre data gemt i databasen.
+Hverken personoplysninger eller opsætning er tilgængelige for redigering for
+den almindelige bruger. Det er derfor nødvendigt at kontakte databasens
+administrator, hvis man opdager fejl eller vil have oprettet eller slettet en
+person i databasen.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=Normalindentital2>Det kan stærkt anbefales at have programmet åbent,
+mens nedenstående forklaring læses, så man kan prøve de forskellige funktioner
+undervejs. Læg mærke til farvekodningen af de forskellige dele af formene, som
+forhåbentlig hjælper med at finde og vise de oplysninger man ønsker.</p>
+
+<h3><span style='mso-ansi-language:DA'>start af programmet<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Når der klikkes to gange på ikonen starter programmet. Under
+starten bliver brugeren spurgt om han/hun vil anvende den kopi af databasen,
+der ligger på den lokale computer - eller kopien der ligger på
+Sønderskovhjemmets hjemmeside. Har man internetforbindelse, er det bedst, at
+anvende den sidst omtalte database, idet det altid vil være den senest
+opdaterede. Kun i tilfælde hvor der ikke er forbindelse til internettet, bør
+den lokale kopi anvendes.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Når programmet åbnes, hentes persondata automatisk ind fra
+den valgte kilde med én side (Record) for hver person.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>søgning i databasen<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Der kan søges efter enkelte personer eller persongrupper.
+Søgefunktionen fungerer på den måde, at der foretages en ny søgning hver gang,
+der indtastes ét nyt bogstav i søgefeltet. Denne metode er hurtig, men ikke
+altid helt logisk.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Lad os for eksempel antage at der findes to personer i
+databasen med navnene: <i>Eva Hansen</i> og <i>Eva Marie Hansen</i>, og at du
+vil finde <i>Eva Hansen</i>. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><i>Et eksempel:<o:p></o:p></i></p>
+
+<p class=MsoNormal>Du taster først <i>Eva</i> hvorefter begge personer dukker
+op på hitlisten. Du fortsætter dernæst med at taste til der står <i>Eva Han</i>
+i feltet - og finder <i>Eva Hansen</i>, men ikke <i>Eva Marie Hansen</i> - fordi
+de 7 karakterer du har indtastet: <i>Eva Han</i> (et mellemrum er også en
+karakter) ikke findes i navnet <i>Eva Marie Hansen</i></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Der kan søges enten blandt oplysningerne på personsiderne
+(Records) eller i bemærkningerne på hver side. Også <span class=Style1>bemærkninger</span>
+er låst for redigering, hvis man ikke har administrator rettigheder. <span
+class=Style1>Frem</span> og <span class=Style1>Tilbage</span> knapperne bladrer
+frem og tilbage i hitlisten.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>hitlisten<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Et klik på <span class=Style1>Vis Hit Liste...</span> viser
+en liste med de hits, der er fundet. Klikkes to gange på en linie i hitlisten
+hentes personsiden for den pågældende. Er <span class=Style1>ID-nummeret</span>
+forsynet med et kryds betyder det, at denne record indeholder <span
+class=Style1>Private Noter</span>. Er Antallet af hits lig med nul vises ingen
+liste.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>personlister<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Ønsker man en speciel liste, der for eksempel viser alle
+brændekunder, alle personer der skal have årsberetningen, have en julehilsen
+etc. klikkes på <span class=Style1>Sammensæt Liste...</span> Der vises nu en ny
+form, der indeholder de felter i databasen, der indeholder oplysninger på
+mindst én af personsiderne.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Ved at sætte flueben i de felter man ønsker at medtage i den
+samlede liste, kan man sammensætte en personlister efter sit aktuelle behov.
+Felterne nummereres efterhånden som man sætter fluebenene, således at det
+første felt får nummer 1, det næste nummer 2 osv. Dermed bestemmer man i
+hvilken kolonne i den færdige personliste oplysningen kommer til at stå. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Skal man anvende listen igen, klikker man <span
+class=Style1>Gem Valg</span> knappen som gemmer placeringen af fluebenene til
+næste gang. For at en record medtages i listen skal mindst ét af nøgleordene i
+recorden være markeret - og mindst ét af nøgleordene på siden, der sammensætter
+listen være checket.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Når man er tilfreds, klikker man <span class=Style1>Vis
+Liste</span>. Vil man starte forfra klikkes <span class=Style1>Gendan</span>,
+der rydder alle flueben. Du kan gemme den valgte liste ved at klikke på <span
+class=Style1>Gem Liste</span>. Der vil så være flueben i de samme felter som da
+du sidst anvendte formen til at sammensætte en liste. Skal listen anvendes til
+brevfletning, kan listen eksporteres til regnearket <span class=Style1>Excel</span>,
+der kan levere oplysningerne til fletning af breve i Word. Du finder denne
+mulighed <span class=Style1>Eksporter Personlisten i Excelformat...</span>
+under <span class=Style1>Filer</span> menuen på selve listen.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>private notater<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Den eneste del af databasen, der ikke er låst, er <span
+class=Style1>Mine Private Noter</span>, hvor man kan skrive hvad man vil.
+Formen åbnes og lukkes med at klikke på knappen <span class=Style1>Mine Private
+Noter</span>. Teksten her kan i begrænset omfang formateres med farver samt
+fed/kursiv/understreg samt skriftstørrelse - og der kan indsættes billeder
+(copy/paste). Disse noter gemmes altid på din egen PC og kun du - og andre
+brugere af din PC - kan se dem.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>For records med oplysninger på notesiden skifter farven på <span
+class=Style1>Mine Private Noter</span> til rød og recorden er markeret med et
+kryds i de forskellige lister.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Du kan gemme en backup af dine private noter ved at klikke
+på <span class=Style1>Filer menuen</span>, punktet <span class=Style1>Gem
+Backup af Mine Private Noter...</span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span lang=EN-US>prøv dig frem - det kan ikke gå galt...</span></h3>
+
+<p class=MsoNormal>Er du i tvivl om noget så forsøg dig frem. Databasen er som
+nævnt låst, så der kan ikke laves ulykker, hvis man klikker
+&quot;forkert&quot;.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2><span style='mso-ansi-language:DA'>Administration af databasen<o:p></o:p></span></h2>
+
+<p class=Normalindentital2>Databaseprogrammet &quot;Small Database
+Utility&quot; (SDU) er fuldt konfigurerbar. Alle forme der vedrører opsætning
+er på engelsk. De forskellige dele af opsætningen gennemgås en ad gangen
+herunder.</p>
+
+<p class=Normalindentital2><o:p>&nbsp;</o:p></p>
+
+<p class=Normalindentital2>Som ved instruktionen ovenfor for almindelige
+brugere er det en god ide, at have programmet kørende mens beskrivelsen
+nedenfor læses. Start med at lave en backup af datasættet inden du begynder at
+lave eksperimenter.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>password<o:p></o:p></span></h3>
+
+<p class=MsoNormal>For at få adgang til at redigere databasen skal man være
+oprettet som administrator. Programmet har én administrator med tilførende
+password oprettet, når det installeres: </p>
+
+<p class=MsoNormal>bruger = Small Database Utility, password = sdu. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Når et korrekt password er indtastet under <span
+class=Style1>Værktøj menuen</span>, frigives kontrol med faciliteter for redigering
+af records og kommentarer samt af programkonfiguration. Det indikeres ved at
+meddelelsen: <b><span style='color:#CC3300'>DATABASEN ER LÅST</span></b>
+nederst på hovedvinduet forsvinder.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>redigering af records<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Det er nu muligt af redigere de enkelte records, oprette nye
+samt at slette records. Husk at alle records skal have mindst ét nøgleord
+defineret for at vises i personlisten. Ændringer til de enkelte records gemmes
+automatisk, når der navigeres til en ny record. For at gemme den sidst
+redigerede record klikkes på <span class=Style1>Save</span>. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Bemærk at det ikke er muligt at oprette mere end én ny
+record ad gangen. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Først når der er indtastet data i den nye record kan kan der
+oprettet endnu en.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Efter redigering af databasen er det en god ide at uploade
+den rettede datebase til Sønderskovhjemmets hjemmeside ved at klikke på <span
+class=Style1>Upload Compressed File to Website (FTP) </span>på <span
+class=Style1>Filer menuen</span>. Efter databasen er uploaded, vil den være
+tilgængelig for samtlige brugere af persondatabasen.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>konfiguration af databasen<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Konfigurationsformen indeholder en logfil, der viser hvem
+der har redigeret og for nogle operationers vedkommende hvad personen har
+foretaget sig. Med dato og tidspunkt for operationen.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Det er muligt at ændre titlerne på samtlige felter og
+nøgleord samt at tilpasse welkomst tekst og billede så programmet fremtræder
+forskelligt for forskellige brugere. Der er 10 forskellige billeder til
+rådighed.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>avancerede funktioner<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Denne form rummer fire knapper til at oprette nye brugere
+med administratorrettigheder, til at indsætte FTP parametre for upload, til
+validering/indsætning af record ID's, til import af records fra en tekstfil
+samt en funktion, der analyserer records for dubletter. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>For den sidste funktion vises resultatet af analysen som en
+liste med recordnumre på de to mulige dubletter. Venstre-klikkes på en linie
+hentes den ene record mens et højre-klik henter den anden record. Det er
+således nemt at foretage en sammenligning af indholdet af de to records.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>lokal backup<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Der er to muligheder for at foretage backup af databasen.
+Den ene opretter automatisk en underfolder under backup folderen på brugerens
+PC hvortil samtlige records kopieres. Denne backup er beregnet til at forblive
+på brugerens PC. Backups af brugerens noter er også placeret i denne folder.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>flytning af databasen<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Skal records flyttes fra en PC til en anden anvendes en
+tekstfil, som indeholder samtlige records i en enkelt tekst fil. Denne backup
+indeholder ikke de private noter.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>installation af backups<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Der er ligeledes to muligheder for at installere gemte
+backups på en bruger PC. Den ene kopierer records fra en tidligere backup
+folder på brugerens PC. Disse filer erstatter de eksisterende record filer på
+brugerens PC. Denne backup indeholder kun records.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Ønskes en tidligere backup af de private noter, er
+proceduren den samme. Backup af Noter er gemt sammen med records backup i
+backupfolderen. Ved installationen hentes disse filer fra backup folderen. De
+eksisterende notefiler overskrives ved denne operation.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>opdatering af databasen<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Ønskes brugerens database opdateret med et helt nyt sæt
+records anvendes en record fil, der indeholder samtlige nye records.
+Eksisterende records på brugerens PC overskrives. Private noter berøres ikke
+ved denne operation.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><span style='mso-ansi-language:DA'>folderstruktur<o:p></o:p></span></h3>
+
+<p class=MsoNormal>Programmet opretter automatisk følgende under-foldere på <span
+class=Style1>C:\SDC_SSH</span> der er hovedfolderen og som indeholder følgende
+underfoldere: </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='margin-left:36.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span class=Style1>BACKUP_RECORDS</span> som
+     indeholder en række underfoldere, én for hver backup af records. </li>
+ <li class=MsoNormal style='margin-left:36.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span class=Style1>BACKUP_NOTES</span> som
+     indeholder en række underfoldere, én for hver backup af noter </li>
+ <li class=MsoNormal style='margin-left:36.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span class=Style1>COMPR</span> indeholder
+     multi-record tekstfiler uden brugerens private noter. </li>
+ <li class=MsoNormal style='margin-left:36.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span class=Style1>EXCEL</span> indeholder excel -
+     *.xls - filer med personlister i excelformat eksporteret hertil fra
+     programmet. Det er her man skal lede hvis man vil anvende xls filen til
+     brevfletning. </li>
+ <li class=MsoNormal style='margin-left:36.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span class=Style1>NOTES</span> indeholder
+     brugerens private noter som separate filer, én for hver record med en
+     note. </li>
+ <li class=MsoNormal style='margin-left:36.0pt;mso-list:l0 level1 lfo1;
+     tab-stops:list 36.0pt'><span class=Style1>RECORDS</span> indeholder
+     samtlige records som separate filer. </li>
+</ul>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Selve programmet oprettes i <span class=Style1>C:\Programmer\SDU\
+</span>sammen med de øvrige programmer på PC'en. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>S.W. Rasmussen den 25. september 2007</p>
+
+</div>
+
+</body>
+
+</html>
